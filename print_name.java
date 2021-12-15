@@ -1,11 +1,11 @@
 import java.util.Scanner;
 
-public class array {
+public class print_name {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Input the value");
-        int mark[] =new int[5];
-        System.out.println(mark);
+        System.out.print("Enter your name : ");
+        String s = sc.nextLine();
+        System.out.print(s);
         sc.close();
     }
 }
