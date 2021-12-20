@@ -3,11 +3,11 @@ import java.util.Scanner;
 public class switch_condition3 {
     public static void main(String[] args) { // calculetor
         Scanner sc = new Scanner(System.in);
-        System.out.println("Input first value");
+        System.out.print("Input first value : ");
         int a = sc.nextInt();
-        System.out.println("Input secend value");
+        System.out.print("Input secend value : ");
         int b = sc.nextInt();
-        System.out.println("Input the operation");
+        System.out.print("Input the operation : ");
         sc.nextLine();
         char operation = sc.nextLine().charAt(0);
         int result = 0;
@@ -28,7 +28,7 @@ public class switch_condition3 {
                 System.out.println("Invalid operation");
                 break;
         }
-        System.out.println("Result = " + result);
+        System.out.println("Result : " + result);
         sc.close();
     }
 }

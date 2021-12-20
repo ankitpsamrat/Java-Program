@@ -4,9 +4,9 @@ import java.awt.event.*;
 public class create_notepad extends Frame implements MouseMotionListener {
     create_notepad() {
         addMouseMotionListener(this);
-        setSize(500, 300);
-        setLayout(null);
-        setVisible(true);
+        setSize(500, 300); // set size of the frame
+        setLayout(null); // set default layout for the frame
+        setVisible(true); // set visibility of the frame
     }
 
     public void mouseDragged(MouseEvent a) {

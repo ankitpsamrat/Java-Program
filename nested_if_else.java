@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class nested_if_else {
     public static void main(String[] args) { // find mounth name
         Scanner sc = new Scanner(System.in);
-        System.out.print("Input number between 1 to 12 : ");
+        System.out.print("Enter number between 1 to 12 : ");
         int a = sc.nextInt();
         if (a == 1) {
             System.out.println("January");

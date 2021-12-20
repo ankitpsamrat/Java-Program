@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class fibnocci_no {
-    public static void main(String[] args) { // using for loop
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         // System.out.println("Input the value");
         // int n = sc.nextInt();

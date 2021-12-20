@@ -2,7 +2,7 @@ import java.util.Scanner;
 import java.lang.Math;
 
 public class armstsrong_no {
-    static boolean isArmstrong(int n) {
+    static boolean isArmstrong(int n) { // check number is armstrong or not
         int temp, digits = 0, last = 0, sum = 0;
         temp = n;
         while (temp > 0) {

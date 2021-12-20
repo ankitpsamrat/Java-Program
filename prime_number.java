@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class prime_number {
-    public static void main(String arg[]) { // using static method
+    public static void main(String arg[]) { // check number is prime or not
         System.out.print("Enter a number : ");
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
@@ -9,7 +9,7 @@ public class prime_number {
         sc.close();
     }
 
-    static void primeCal(int num) {
+    static void primeCal(int num) { // using static method
         int count = 0;
         for (int i = 1; i <= num; i++) {
             if (num % i == 0) {

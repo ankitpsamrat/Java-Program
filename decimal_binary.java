@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class decimal_binary {
-    public static void main(String arg[]) {  // using while loop and array
+    public static void main(String arg[]) { // decimal to binary conversion
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a decimal number : ");
         int n = sc.nextInt();

@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class leapyear {
-    public static void main(String arg[]) { // using if else
+    public static void main(String arg[]) { // check year is leap or not
         int year;
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter any calendar year : ");

@@ -27,9 +27,9 @@ public class create_login extends Frame {
         add(dobTF);
         add(sbmt);
         add(reset);
-        setSize(500, 300);
-        setLayout(null);
-        setVisible(true);
+        setSize(500, 300); // set size of the frame
+        setLayout(null); // set default layout for the frame
+        setVisible(true); // set visibility of the frame
     }
 
     public static void main(String[] args) {

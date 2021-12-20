@@ -1,8 +1,7 @@
 import java.util.Scanner;
 
 public class temperature_convert {
-    public static void main(String arg[]) { // using switch case
-        double f, c;
+    public static void main(String arg[]) { // convert temperature Fahrenheit to Celsius and Celsius to Fahrenheit
         Scanner sc = new Scanner(System.in);
         System.out.println("Choose type of conversion");
         System.out.println("1.Fahrenheit to Celsius");
@@ -11,8 +10,8 @@ public class temperature_convert {
         switch (ch) {
             case 1:
                 System.out.print("Enter Fahrenheit temperature : ");
-                f = sc.nextDouble();
-                c = (f - 32) * 5 / 9;
+                double f = sc.nextDouble();
+                double c = (f - 32) * 5 / 9;
                 System.out.println("Celsius temperature is : " + c);
                 break;
             case 2:

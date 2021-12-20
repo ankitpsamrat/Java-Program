@@ -9,8 +9,8 @@ public class create_password {
         passWord_value.setBounds(100, 100, 100, 30);
         passWord_f.add(passWord_value);
         passWord_f.add(passWord_l1);
-        passWord_f.setSize(500, 300);
-        passWord_f.setLayout(null);
-        passWord_f.setVisible(true);
+        passWord_f.setSize(500, 300); // set size of the frame
+        passWord_f.setLayout(null); // set default layout for the frame
+        passWord_f.setVisible(true); // set visibility of the frame
     }
 }

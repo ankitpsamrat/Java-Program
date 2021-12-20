@@ -12,9 +12,9 @@ class submit {
         f.add(b); // adding components into frame
         f.add(l);
         f.add(t);
-        f.setSize(500, 300); // frame size 300 width and 300 height
+        f.setSize(500, 300); // frame size
         f.setTitle("Employee info"); // setting the title of frame
-        f.setLayout(null);
+        f.setLayout(null); // set default layout for the frame
         f.setVisible(true); // setting visibility of frame
     }
 

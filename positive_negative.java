@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class positive_negative {
-    public static void main(String[] args) {
+    public static void main(String[] args) { // check number is positive or negative
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a number : ");
         int num = sc.nextInt();

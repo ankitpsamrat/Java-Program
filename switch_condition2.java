@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class switch_condition2 {
     public static void main(String[] args) { // find mounth name
         Scanner sc = new Scanner(System.in);
-        System.out.println("Input number between 1 to 12");
+        System.out.print("Input number between 1 to 12 : ");
         int a = sc.nextInt();
         switch (a) {
             case 1:

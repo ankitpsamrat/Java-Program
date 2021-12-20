@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class decimal_octal {
     static int i = 1;
 
-    public static void main(String args[]) {
+    public static void main(String args[]) { // decimal to octal conversion
         int dec, i = 0;
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a decimal number : ");
