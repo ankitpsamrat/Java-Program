@@ -1,8 +1,7 @@
 import java.util.Scanner;
 
 public class vowel_constant {
-
-    public static void main(String[] arg) {   // check enter character is vowel or constant
+    public static void main(String[] arg) { // check character is vowel or constant
         int i = 0;
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter only one character : ");

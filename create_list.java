@@ -1,7 +1,6 @@
 import java.awt.*;
 
 public class create_list {
-
     Frame f; // create object of the frame
     List list; // create list of the frame
     Label lb1; // creare label of the frame

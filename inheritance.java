@@ -13,7 +13,7 @@ class Dog extends Animal { // create inherit class
 
 class TestInheritance {
     public static void main(String args[]) {
-        Dog d = new Dog();
+        Dog d = new Dog(); // create object for inherit class
         d.bark();
         d.eat();
     }

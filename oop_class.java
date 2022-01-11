@@ -11,10 +11,10 @@ class student { // create class
 
 public class oop_class {
     public static void main(String[] args) {
-        student samrat = new student(); // create object
+        student samrat = new student(); // create object for class
         student abhay = new student();
 
-        samrat.id = 1; // use object to call class
+        samrat.id = 1;
         samrat.name = "Ankit Samrat";
         abhay.id = 2;
         abhay.name = "Abhay Samrat";

@@ -13,6 +13,5 @@ public class create_frame extends Frame {
 
     public static void main(String args[]) {
         new create_frame();
-
     }
 }

@@ -1,10 +1,10 @@
-class Adder {
+class Adder { // create class
 
-    static int add(int a, int b) {
+    static int add(int a, int b) { // create method
         return a + b;
     }
 
-    static int add(int a, int b, int c) {
+    static int add(int a, int b, int c) { // create method
         return a + b + c;
     }
 }
