@@ -11,7 +11,7 @@ class Adder { // create class
 
 public class method_overloading { // overloading when data type are same
     public static void main(String[] args) {
-        System.out.println(Adder.add(10, 10));
-        System.out.println(Adder.add(10, 10, 10));
+        System.out.println("Addition : " + Adder.add(10, 10));
+        System.out.println("Addition : " + Adder.add(10, 10, 10));
     }
 }

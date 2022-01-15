@@ -11,7 +11,7 @@ class Adder1 { // create class
 
 public class method_overloading2 { // overloading when data type are diffrent
     public static void main(String[] args) {
-        System.out.println(Adder1.add(11, 11));
-        System.out.println(Adder1.add(12, 12));
+        System.out.println("Addition : " + Adder1.add(11, 11));
+        System.out.println("Addition : " + Adder1.add(12, 12));
     }
 }
