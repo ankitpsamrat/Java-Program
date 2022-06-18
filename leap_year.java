@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
-public class leapyear {
+public class leap_year {
+
     public static void main(String arg[]) { // check year is leap or not
         int year;
         Scanner sc = new Scanner(System.in);
