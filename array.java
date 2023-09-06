@@ -11,8 +11,8 @@ public class array {
 
         // third method
         // int[] num = new int[5];
-        int num[] = new int[5];
 
+        int num[] = new int[5];
         num[0] = 10;
         num[1] = 20;
         num[2] = 30;
