@@ -7,17 +7,24 @@ public class operator_logical {
         System.out.print("Enter the value : ");
         int a = sc.nextInt();
 
-        // AND operator
-        if (a >= 1 & a <= 100) {
+        // logial AND(all condition should be true)
+        // if (a >= 1 && a <= 100) {
+        // System.out.print("Number is in range");
+        // }
+
+        // logial OR(atleast one condition should be true)
+        // if (a >= 1 || a >= 100) {
+        // System.out.print("Number is in range");
+        // }
+
+        // logial NOT
+        if (!(a >= 1)) {
             System.out.print("Number is in range");
         }
 
-        // OR operator
-        // if (a >= 1 || a <= 100) {
-        // System.out.print("Number is in range");
-        // }
-        else
+        else {
             System.out.print("Number is not in range");
+        }
         sc.close();
     }
 }
