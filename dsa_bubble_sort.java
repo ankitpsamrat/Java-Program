@@ -2,10 +2,10 @@ public class dsa_bubble_sort {
 
     public static void main(String[] args) {
         int arr[] = { 7, 8, 3, 1, 2 };
+        int size = arr.length;
 
-        // bubble sort means: sort value in ascending order
-        for (int i = 0; i < arr.length - 1; i++) {
-            for (int j = 0; j < arr.length - i - 1; j++) {
+        for (int i = 0; i < size - 1; i++) {
+            for (int j = 0; j < size - i - 1; j++) {
                 if (arr[j] > arr[j + 1]) {
                     // swap
                     int temp = arr[j];
@@ -14,9 +14,8 @@ public class dsa_bubble_sort {
                 }
             }
         }
-        for (int i = 0; i < arr.length; i++) {
+        for (int i = 0; i < size; i++) {
             System.out.print(arr[i] + " ");
         }
     }
-
 }
