@@ -1,16 +1,15 @@
-
 class Pen {
     String color;
-    String type;
+    int price;
 
-    public void penColor() {
-        System.out.println(this.color);
+    public void penDetails() {
+        System.out.println(color);
+        System.out.println(price);
+
+        // aise bhi likh skte h
+        // System.out.println(this.color);
+        // System.out.println(this.price);
     }
-
-    public void penType() {
-        System.out.println(this.type);
-    }
-
 }
 
 public class class2 {
@@ -18,9 +17,8 @@ public class class2 {
     public static void main(String[] args) {
         Pen p1 = new Pen();
         p1.color = "Blue";
-        p1.type = "Ball";
+        p1.price = 2;
 
-        p1.penColor();
-        p1.penType();
+        p1.penDetails();
     }
 }
