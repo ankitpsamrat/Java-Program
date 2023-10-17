@@ -1,31 +1,42 @@
-// The word polymorphism means having many forms
+// polymorphism means having many forms. we can define polymorphism
+// as the ability of a message to be displayed in more than one form.
 
-class Student {
-    String name;
-    int age;
-
-    public void printInfo(String name) {
-        System.out.println(name);
+class Bank {
+    float getRateOfInterest() {
+        return 0;
     }
+}
 
-    public void printInfo(int age) {
-        System.out.println(age);
+class SBI extends Bank {
+    float getRateOfInterest() {
+        return 8.4f;
     }
+}
 
-    public void printInfo(String name, int age) {
-        System.out.println(name + ":" + age);
+class ICICI extends Bank {
+    float getRateOfInterest() {
+        return 7.3f;
+    }
+}
+
+class AXIS extends Bank {
+    float getRateOfInterest() {
+        return 9.7f;
     }
 }
 
 public class polymorphism {
 
-    public static void main(String[] args) {
-        Student obj = new Student();
-        obj.name = "Samrat";
-        obj.age = 21;
+    public static void main(String args[]) {
+        Bank b = new Bank();
 
-        obj.printInfo(obj.name);
-        obj.printInfo(obj.age);
-        obj.printInfo(obj.name, obj.age);
+        b = new SBI();
+        System.out.println("SBI Rate of Interest: " + b.getRateOfInterest());
+
+        b = new ICICI();
+        System.out.println("ICICI Rate of Interest: " + b.getRateOfInterest());
+
+        b = new AXIS();
+        System.out.println("AXIS Rate of Interest: " + b.getRateOfInterest());
     }
 }

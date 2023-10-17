@@ -1,20 +1,29 @@
-class Animal { // create class
+// A class that inherits from another class can reuse the methods
+// and fields of that class. In addition, you can add new fields
+// and methods to your current class as well. 
 
-    void eat() { // create method
+// base class
+class Animal {
+    void eat() {
         System.out.println("eating...");
     }
 }
 
-class Dog extends Animal { // create inherit class
+// derived(inherit) class
+class Dog extends Animal {
     void bark() {
         System.out.println("barking...");
     }
 }
 
-class TestInheritance {
+public class inheritance {
+
     public static void main(String args[]) {
-        Dog d = new Dog(); // create object for inherit class
+        // create object for inherit class
+        Dog d = new Dog();
         d.bark();
+
+        // eat method inherit from animal class
         d.eat();
     }
 }
