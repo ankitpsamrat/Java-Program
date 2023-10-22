@@ -12,5 +12,8 @@ public class inheritance_exa {
         Triangle obj = new Triangle();
         obj.shapeCount = 3;
         obj.color = "red";
+
+        System.out.println(obj.shapeCount);
+        System.out.println(obj.color);
     }
 }
