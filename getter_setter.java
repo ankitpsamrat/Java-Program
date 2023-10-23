@@ -1,18 +1,23 @@
-class student1 { // create class
+// Getters and setters are accessor methods in Java that are
+// used to retrieve and set the values of private variables
 
+// create class
+class student1 {
     private int id;
     private String name;
 
-    public void setId(int i) { // create setter method
+    // create setter method
+    public void setId(int i) {
         id = i;
-    }
-
-    public int getId() { // create getter method
-        return id;
     }
 
     public void setName(String n) {
         name = n;
+    }
+
+    // create getter method
+    public int getId() {
+        return id;
     }
 
     public String getName() {
@@ -21,10 +26,16 @@ class student1 { // create class
 }
 
 public class getter_setter {
+
     public static void main(String[] args) {
-        student1 obj = new student1(); // create object for class
+        // create object for class
+        student1 obj = new student1();
+
+        // assign value to setter method
         obj.setId(1);
         obj.setName("Samrat");
+
+        // access value using getter method
         System.out.println(obj.getId());
         System.out.print(obj.getName());
     }
