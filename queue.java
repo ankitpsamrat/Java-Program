@@ -4,27 +4,28 @@ import java.util.Queue;
 public class queue {
 
     public static void main(String[] args) {
-        Queue<String> myQueue = new LinkedList<>();
+        Queue<Integer> q = new LinkedList<>();
 
-        myQueue.offer("Element 1");
-        myQueue.offer("Element 2");
-        myQueue.offer("Element 3");
+        // Add elements to the queue
+        q.offer(1);
+        q.offer(2);
+        q.offer(3);
 
         // Print queue elements
-        System.out.println("Queue elements: " + myQueue);
+        System.out.println("Queue elements: " + q);
 
         // Dequeue elements
-        String element = myQueue.poll();
+        Integer element = q.poll();
         System.out.println("Dequeued element: " + element);
 
         // Print queue after dequeue
-        System.out.println("Queue elements after dequeue: " + myQueue);
+        System.out.println("Queue elements after dequeue: " + q);
 
         // Peek at the front element without removing it
-        String frontElement = myQueue.peek();
+        Integer frontElement = q.peek(); 
         System.out.println("Front element (peek): " + frontElement);
 
         // Print final queue
-        System.out.println("Final Queue: " + myQueue);
+        System.out.println("Final Queue: " + q);
     }
 }
