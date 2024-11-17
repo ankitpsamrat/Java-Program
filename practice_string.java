@@ -5,7 +5,9 @@ public class practice_string {
     public static void main(String[] args) {
         String str = "Samrat";
 
-        char ch = str.charAt(3);
-        System.out.println(ch);
+        if (!str.isEmpty()) {
+            char ch = str.charAt(2);
+            System.out.println(ch);
+        }
     }
 }
