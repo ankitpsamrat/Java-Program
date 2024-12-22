@@ -17,5 +17,16 @@ public class time_complexity {
             }
         }
         // time comlexity = O(n^2)
+
+        int n = 16;
+        int steps = 0;
+
+        while (n > 1) {
+            n = n / 2;
+            steps++;
+            System.out.println("n: " + n);
+        }
+        System.out.println("Total steps: " + steps);
+        // time comlexity = O(log n)
     }
 }
