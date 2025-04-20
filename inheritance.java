@@ -3,14 +3,14 @@
 // and methods to your current class as well. 
 
 // base class
-class Animal {
+class Animal2 {
     void eat() {
         System.out.println("eating...");
     }
 }
 
 // derived(inherit) class
-class Dog extends Animal {
+class Dog extends Animal2 {
     void bark() {
         System.out.println("barking...");
     }

@@ -1,4 +1,4 @@
-class Student {
+class Students {
     String name;
 
     void printName(String name) {
@@ -10,7 +10,7 @@ class Student {
 public class keyword_this {
 
     public static void main(String[] args) {
-        Student student = new Student();
+        Students student = new Students();
         student.printName("John");
     }
 }

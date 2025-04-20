@@ -1,16 +1,16 @@
-class Animal {
+class Animal1 {
     void makeSound() {
         System.out.println("Animal");
     }
 }
 
-class Dog extends Animal {
+class Dog1 extends Animal1 {
     void makeSound() {
         System.out.println("Dog");
     }
 }
 
-class Cat extends Animal {
+class Cat extends Animal1 {
     void makeSound() {
         System.out.println("Cat");
     }
@@ -19,10 +19,10 @@ class Cat extends Animal {
 public class polymorphism_exa {
 
     public static void main(String[] args) {
-        Animal animal = new Animal();
+        Animal1 animal = new Animal1();
         animal.makeSound();
 
-        Dog dog = new Dog();
+        Dog1 dog = new Dog1();
         dog.makeSound();
 
         Cat cat = new Cat();

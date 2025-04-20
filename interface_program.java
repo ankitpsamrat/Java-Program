@@ -3,12 +3,12 @@
 // abstract class is declared with the interface keyword.
 
 // interface class
-interface Animal {
+interface Animals {
     public void walk();
 }
 
 // create implement class
-class Horse implements Animal {
+class Horse implements Animals {
     public void walk() {
         System.out.println("Animal can walk");
     }
